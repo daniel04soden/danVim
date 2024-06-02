@@ -29,6 +29,10 @@ $ sudo pacman -S git neovim
 ### Install
 
 ```
-git clone htttps://daniel04soden/DanVim
+cd .config/
+git clone htttps://daniel04soden/danVim
+cp .config/danVim/nvim .config
+rm -rf danVim
+echo "alllll done"
 ```
 [May include a more detailed install script through testing on my other laptop]
