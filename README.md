@@ -30,7 +30,7 @@ $ sudo pacman -S git neovim
 
 ```
 cd .config/
-git clone https://daniel04soden/danVim
+git clone https://github.com/daniel04soden/danVim.git
 cp .config/danVim/nvim .config
 rm -rf danVim
 echo "alllll done"
