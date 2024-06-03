@@ -7,6 +7,8 @@ vim.cmd("set number")
 vim.cmd("set relativenumber")
 vim.cmd("set smartcase")
 vim.cmd("set cursorline")
+vim.cmd("autocmd TextYankPost * silent! lua vim.highlight.on_yank {higroup='Visual', timeout=300}")
+
 
 vim.g.mapleader=" "
 
