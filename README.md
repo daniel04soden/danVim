@@ -29,10 +29,30 @@
 - Debugger (to be implemented)
 
 ### Prerequisites 
-- Although I'm not 1000% certain of all prerequisites, git and neovim are the main ones given you will need to clone this repository. 
+
+
+<details>
+<summary>Arch Linux</summary>
+<br>
 ```
 $ sudo pacman -S git neovim 
 ```
+</details>
+<details>
+<summary>Debian/Ubuntu</summary>
+<br>
+```
+$ sudo apt install git neovim 
+```
+</details>
+<details>
+<summary>openSUSE (zypper)</summary>
+<br>
+```
+$ sudo zypper install git neovim 
+```
+</details>
+
 
 ### Install
 
