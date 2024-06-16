@@ -1,6 +1,7 @@
 {
     "diagnostics.globals": [
         "vim",
-        "language"
+        "language",
+        "utils"
     ]
 }
