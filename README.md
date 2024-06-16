@@ -1,5 +1,13 @@
-## DanVim
+# DanVim
 
+
+## Preview
+
+**Intelligent Autocomplete**
+
+**Neotree and LSP in action**
+
+**Intuitive Splash screen**
 
 ### Table of Contents
 1. [Introduction](#introduction)
