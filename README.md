@@ -34,23 +34,16 @@
 <details>
 <summary>Arch Linux</summary>
 <br>
-```
 $ sudo pacman -S git neovim 
-```
 </details>
 <details>
 <summary>Debian/Ubuntu</summary>
-<br>
-```
 $ sudo apt install git neovim 
-```
 </details>
 <details>
 <summary>openSUSE (zypper)</summary>
 <br>
-```
 $ sudo zypper install git neovim 
-```
 </details>
 
 
