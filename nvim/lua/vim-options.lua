@@ -1,6 +1,8 @@
 -- Editor set ups (cursor lines leader etc)
 vim.opt.spellang = 'en_gb'
 vim.opt.spell = true
+vim.o.undofile = true
+vim.cmd("set undofile")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
