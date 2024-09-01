@@ -34,16 +34,16 @@
 <details>
 <summary>Arch Linux</summary>
 <br>
-$ sudo pacman -S git neovim 
+$ sudo pacman -S git neovim pyright nodejs gcc
 </details>
 <details>
 <summary>Debian/Ubuntu</summary>
-$ sudo apt install git neovim 
+$ sudo apt install git neovim pyright nodejs gcc
 </details>
 <details>
 <summary>openSUSE (zypper)</summary>
 <br>
-$ sudo zypper install git neovim 
+$ sudo zypper install git neovim pyright nodejs gcc
 </details>
 
 
