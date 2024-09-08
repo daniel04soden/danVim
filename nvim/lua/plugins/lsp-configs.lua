@@ -42,7 +42,7 @@ end
     "williamboman/mason-lspconfig.nvim",
 		config = function ()
 		require("mason-lspconfig").setup({
-				ensure_installed = {"lua_ls","tsserver","jdtls","rust_analyzer","pyright"}
+				ensure_installed = {"lua_ls","jdtls","rust_analyzer","pyright"}
 			})
 		end
   },
@@ -53,9 +53,6 @@ end
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
       local lspconfig = require("lspconfig")
-      lspconfig.tsserver.setup({
-        capabilities = capabilities
-      })
       lspconfig.html.setup({
         capabilities = capabilities
       })
