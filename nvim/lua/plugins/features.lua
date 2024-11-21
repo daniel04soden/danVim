@@ -87,6 +87,9 @@ return {
       { "<leader>qd", function() require("persistence").stop() end, desc = "Don't Save Current Session" },
     },
   },
+		{
+			'ThePrimeagen/vim-be-good'
+		},
 
   -- library used by other plugins
   { "nvim-lua/plenary.nvim", lazy = true },
