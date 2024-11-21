@@ -29,10 +29,6 @@
 <br>
 
 ```
-sudo pacman -S git neovim pyright nodejs gcc
-    ```
-
-```
 yay -S git neovim pyright nodejs gcc 
     ```
 </details>
