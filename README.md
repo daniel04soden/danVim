@@ -27,10 +27,7 @@
 <details>
 <summary>Arch Linux</summary>
 <br>
-
-```
-yay -S git neovim pyright nodejs gcc 
-    ```
+$ sudo pacman -S git neovim pyright nodejs gcc
 </details>
 <details>
 <summary>Debian/Ubuntu</summary>
