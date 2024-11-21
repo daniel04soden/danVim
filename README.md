@@ -10,16 +10,9 @@
 **Intuitive Splash screen**
 
 ### Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Prerequisites](#prerequisites)
-4. [Install](#install)
-### Introduction
-
-- This neovim configuration is to be used for college work in learning languages like java,python and rust.
-- I have learned a lot in configuring this PDE and I followed this tutorial (https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn) for the most part while still trying to learn a bit more myself and add other plugins
-- I found using editors like VSCode,PyCharm etc extremely slow on startup and to me they just felt like you download the editor and that's it, you learn nothing more about how it works and what you can do with it.
-
+1. [Features](#features)
+2. [Prerequisites](#prerequisites)
+3. [Install](#install)
 ### Features 
 
 - Linting
@@ -34,7 +27,14 @@
 <details>
 <summary>Arch Linux</summary>
 <br>
-$ sudo pacman -S git neovim pyright nodejs gcc
+
+```
+sudo pacman -S git neovim pyright nodejs gcc
+    ```
+
+```
+yay -S git neovim pyright nodejs gcc 
+    ```
 </details>
 <details>
 <summary>Debian/Ubuntu</summary>
